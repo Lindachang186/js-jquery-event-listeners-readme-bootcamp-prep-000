@@ -11,7 +11,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('form').on('submit', function() {
+  $('document').on('submit', function() {
     if(key.which == 71).val() === 'correct' {
         alert('You have pressed G')
     }

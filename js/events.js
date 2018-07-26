@@ -7,7 +7,6 @@ function getIt() {
 function frameIt(){
   $('img').on('load', function() {
     const img = window.$('img')
-    img.trigger('load');
   })
 }
 

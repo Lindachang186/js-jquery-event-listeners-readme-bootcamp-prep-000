@@ -11,7 +11,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('document').on('submit', function() {
+  $('document').on('keydown', function(key) {
     if(key.which == 71).val() === 'correct' {
         alert('You have pressed G')
     }

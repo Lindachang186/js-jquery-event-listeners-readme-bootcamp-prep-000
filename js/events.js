@@ -6,7 +6,8 @@ function getIt() {
 
 function frameIt(){
   $('img').on('load', function() {
-    .tasty
+    const img = window.$('img')
+    img.trigger('load');
   })
 }
 
